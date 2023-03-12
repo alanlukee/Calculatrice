@@ -1,0 +1,97 @@
+
+.container{
+    width:376px;
+    height:450px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    margin:auto;
+    padding:25px;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+    align-content: center;
+
+}
+#screen{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width:349px;
+    margin:5px;
+    font-size:4rem;
+    text-align: right;
+    border-radius: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-number{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    width:70px;
+    height: 70px;
+    font-size:1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:10px;
+    border-radius:100px;
+    border:none;
+    outline:none;
+    padding:25px;
+    opacity: 1;
+    transition: 0.3s;
+
+
+}
+
+.btn-operator{
+    background-color: rgb(221, 140, 18);
+    color: white;
+    width:70px;
+    height: 70px;
+    font-size:1.8rem;
+    margin:10px;
+    border-radius:100px;
+    border:none;
+    outline:none;
+    padding:25px;
+    opacity: 1;
+    transition: 0.3s;
+    align-items: center;
+    
+}
+.result{
+    background-color: rgb(44, 43, 43);
+    background-color: rgb(44, 43, 43);
+    color: white;
+    width:70px;
+    height: 70px;
+    font-size:1.6rem;
+    margin:10px;
+    border-radius:100px;
+    border:none;
+    outline:none;
+    padding:25px;
+    opacity: 1;
+    transition: 0.3s;
+    
+}
+.btn-clear{
+    background-color: rgb(221, 20, 20);
+    
+    color: white;
+    width:70px;
+    height: 70px;
+    font-size:1.6rem;
+    margin:10px;
+    border-radius:100px;
+    border:none;
+    outline:none;
+    padding:25px;
+    opacity: 1;
+    transition: 0.3s;
+}
+.btn-number:hover {opacity: 0.6}
+.btn-operator:hover {opacity: 0.6}
+.btn-clear:hover {opacity: 0.6}
+.result:hover {opacity: 0.6}
+
+h1{
+    color: whitesmoke;
+}
