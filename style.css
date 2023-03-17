@@ -1,4 +1,7 @@
-
+.main-content{
+    height: 100vh;
+    display: flex;
+}
 .container{
     width:376px;
     height:450px;
@@ -6,11 +9,6 @@
     border-radius: 25px;
     margin:auto;
     padding:25px;
-    justify-content:center;
-    text-align:center;
-    align-items: center;
-    align-content: center;
-
 }
 #screen{
     background-color: rgb(255, 255, 255);
